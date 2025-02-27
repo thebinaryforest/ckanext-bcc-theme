@@ -1,0 +1,14 @@
+# bcc_theme-js:
+#   filter: rjsmin
+#   output: ckanext-bcc_theme/%(version)s-bcc_theme.js
+#   contents:
+#     - js/bcc_theme.js
+#   extra:
+#     preload:
+#       - base/main
+
+# bcc_theme-css:
+#   filter: cssrewrite
+#   output: ckanext-bcc_theme/%(version)s-bcc_theme.css
+#   contents:
+#     - css/bcc_theme.css

@@ -1,0 +1,29 @@
+/* BCC official palette
+
+ - #757DED - BCC Blue
+ - #251F47 - BCC Dark Blue
+ - #55868C - BCC Light Blue/green
+ - #DCE2C8 - BCC Light Green
+ - #4A051C - BCC Dark Red
+
+*/
+.account-masthead {
+    background-color: #251F47 !important;
+}
+
+.masthead, .site-footer {
+    background-color: #757DED !important;
+    background-image: none !important;
+}
+
+.homepage .module-search .search-form {
+    background-color: #55868C !important;
+}
+
+.homepage .module-search .tags {
+    background-color: #DCE2C8 !important;
+}
+
+.homepage .module-search .tags h3 {
+    color: black !important;
+}
