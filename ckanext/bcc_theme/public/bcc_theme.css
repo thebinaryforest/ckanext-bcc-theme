@@ -27,3 +27,8 @@
 .homepage .module-search .tags h3 {
     color: black !important;
 }
+
+li.active a, li:hover a {
+    background-color: #251F47 !important;
+    border-radius: 0 !important;
+}
