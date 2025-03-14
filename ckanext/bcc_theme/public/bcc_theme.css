@@ -22,11 +22,16 @@
 }
 
 .homepage .module-search .tags {
-    background-color: #DCE2C8 !important;
+    /*background-color: #DCE2C8 !important;
+    color: white !important;*/
 }
 
+/* .homepage .module-search .tags h3 {
+    color: rgb(255, 255, 255) !important;
+} */
+
 .homepage .module-search .tags h3 {
-    color: black !important;
+    color: rgb(255, 255, 255) !important;
 }
 
 .navbar-nav li.active a, .navbar-nav li:hover a {
@@ -36,4 +41,13 @@
 
 .card, .box {
     border-radius: 0px !important;
+}
+
+.wrapper {
+    border-radius: 0px !important;
+}
+
+.main {
+    background-image: none !important;
+    background-color: #DCE2C8 !important;
 }
