@@ -18,6 +18,7 @@
 
 .homepage .module-search .search-form {
     background-color: #55868C !important;
+    border-radius: 0px !important;
 }
 
 .homepage .module-search .tags {
@@ -28,7 +29,11 @@
     color: black !important;
 }
 
-li.active a, li:hover a {
+.navbar-nav li.active a, .navbar-nav li:hover a {
     background-color: #251F47 !important;
     border-radius: 0 !important;
+}
+
+.card, .box {
+    border-radius: 0px !important;
 }
