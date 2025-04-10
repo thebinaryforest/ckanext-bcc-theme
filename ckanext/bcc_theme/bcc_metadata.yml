@@ -1,0 +1,25 @@
+scheming_version: 2
+dataset_type: dataset
+about: Some extra metadata fields for datasets on the BCC data portal
+about_url: https://github.com/thebinaryforest/ckanext-bcc-theme
+
+dataset_fields:
+
+- field_name: expected_update_frequency
+  label: Expected Update Frequency
+  preset: select
+  choices:
+    - label: Daily
+      value: daily
+    - label: Weekly
+      value: weekly
+    - label: Monthly
+      value: monthly
+    - label: Quarterly
+      value: quarterly
+    - label: Annually
+      value: annually
+    - label: As Needed
+      value: as_needed
+    - label: Not Planned
+      value: not_planned
